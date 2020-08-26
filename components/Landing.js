@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <Box
-      bg="linear-gradient(to right, rgba(0,204,204,0.8 ), rgba(0,0,0,0.6 )), url('/images/Twenty-second.jpeg')"
+      bg="linear-gradient(to right, rgba(0,204,204,0.9 ), rgba(0,0,0,0.6 )), url('/images/Twenty-second.jpeg')"
       h="90vh"
       bgPos="center"
       bgSize="cover"
