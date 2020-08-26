@@ -14,6 +14,7 @@ import Longimagecard from "./Longimagecard";
 import Tvcard from "./Tvcard";
 import Moviescard from "./Moviescard";
 import Unwatched from "./Unwatched";
+import Genres from "./Genres";
 
 const Secondpage = () => {
   const firstGallery = [
@@ -59,6 +60,7 @@ const Secondpage = () => {
         <Tvcard />
         <Moviescard />
         <Unwatched />
+        <Genres />
       </Box>
     </Box>
   );

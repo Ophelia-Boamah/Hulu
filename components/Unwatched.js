@@ -5,10 +5,9 @@ import Imagecard from "./Imagecard";
 
 const Unwatched = () => {
   const unwatchedStuff = [
-    { img: "Twenty - five.jpeg" },
+    { img: "Twenty-five.jpeg" },
     { img: "Twelve.jpeg" },
-    { img: "Twenty - six.jpeg" },
-    { img: "Thirteen.jpeg" },
+    { img: "Twenty-six.jpeg" },
   ];
   return (
     <Box mt={10}>
@@ -20,7 +19,7 @@ const Unwatched = () => {
       </Flex>
       <Grid templateColumns="repeat(4,1fr)" w="95%" mx="auto" gap={1}>
         {unwatchedStuff.map((item, idx) => (
-          <Image key={idx} src={`"/images/${item.img}"`} />
+          <Image key={idx} src={`/images/${item.img}`} />
         ))}
       </Grid>
     </Box>
